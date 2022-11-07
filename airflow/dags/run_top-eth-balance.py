@@ -25,6 +25,9 @@ CLUSTER_CONFIG = {
         "disk_config": {"boot_disk_type": "pd-standard", "boot_disk_size_gb": 1024},
 
     },
+    "endpoint_config": {
+        "enable_http_port_access": True
+    }
 }
 
 args = {
